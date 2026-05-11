@@ -8,6 +8,7 @@ export default defineConfig({
   title: "Byklai Resources",
   projectId: "ra4fit27",
   dataset: "production",
+  basePath: "/studio",
   plugins: [structureTool(), visionTool()],
   schema: {
     types: schemaTypes,
