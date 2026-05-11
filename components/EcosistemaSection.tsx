@@ -29,12 +29,6 @@ const ecosistema = [
     url: "https://discovery.byklai.com",
     label: "discovery.byklai.com",
   },
-  {
-    titulo: "Alianzas",
-    descripcion: "Colaboraciones estratégicas y partnerships.",
-    url: "https://alianzas.byklai.com",
-    label: "alianzas.byklai.com",
-  },
 ];
 
 export default function EcosistemaSection() {
