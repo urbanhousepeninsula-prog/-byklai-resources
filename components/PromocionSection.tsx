@@ -64,9 +64,9 @@ export default function PromocionSection({ promocion }: { promocion: Promocion }
         </div>
 
         {promocion.imagen && (
-          <div className="relative aspect-square rounded-lg overflow-hidden bg-surface2">
+          <div className="relative aspect-[3/4] rounded-lg overflow-hidden bg-surface2">
             <Image
-              src={urlFor(promocion.imagen).width(600).height(600).url()}
+              src={urlFor(promocion.imagen).width(600).height(800).url()}
               alt={promocion.titulo}
               fill
               className="object-cover"

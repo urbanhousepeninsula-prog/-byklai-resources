@@ -29,9 +29,9 @@ export default function RecursosSection({ recursos }: { recursos: Recurso[] }) {
         {recursos.map((recurso, i) => (
           <div key={i} className="border border-line rounded-lg overflow-hidden">
             {recurso.imagen && (
-              <div className="relative aspect-video bg-surface2">
+              <div className="relative aspect-[3/4] bg-surface2">
                 <Image
-                  src={urlFor(recurso.imagen).width(700).height(394).url()}
+                  src={urlFor(recurso.imagen).width(600).height(800).url()}
                   alt={recurso.titulo}
                   fill
                   className="object-cover"
