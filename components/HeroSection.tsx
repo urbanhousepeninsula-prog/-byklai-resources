@@ -15,6 +15,24 @@ export default function HeroSection() {
         Este espacio fue creado para colaboradores, afiliados y aliados estratégicos que desean
         compartir servicios Byklai utilizando materiales oficiales y campañas activas.
       </p>
+
+      <a
+        href="https://afiliados.byklai.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex items-center gap-4 mt-10 p-5 border border-line bg-surface2 rounded-lg hover:border-ink3 transition-colors max-w-md"
+      >
+        <div>
+          <p className="font-mono text-xs text-ink3 uppercase tracking-widest mb-1">
+            Programa de afiliados
+          </p>
+          <p className="font-serif text-lg text-ink">¿Quieres ganar comisiones?</p>
+          <p className="text-sm text-ink3 mt-1">
+            Refiere clientes a Byklai y gana entre 15% y 25% del proyecto.
+          </p>
+        </div>
+        <span className="font-mono text-ink3 text-lg shrink-0">→</span>
+      </a>
     </section>
   );
 }
